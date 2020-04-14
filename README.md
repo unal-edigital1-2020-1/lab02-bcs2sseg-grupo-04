@@ -19,7 +19,8 @@ Para este laboratorio se nos pidió realizar un proyecto en verilog para poder p
 ### Primera parte: comprender el código BCDtoSSeg.v, simulación y análisis
 
 Se nos entregó un código el cual explicamos con comentarios como se puede ver a continuación:
-```module BCDtoSSeg (BCD, SSeg, an); //Se crea el display de 7 segmentos y se declaran las variables de entrada y salida
+```
+module BCDtoSSeg (BCD, SSeg, an); //Se crea el display de 7 segmentos y se declaran las variables de entrada y salida
 
   input [3:0] BCD;
   output reg [0:6] SSeg;
