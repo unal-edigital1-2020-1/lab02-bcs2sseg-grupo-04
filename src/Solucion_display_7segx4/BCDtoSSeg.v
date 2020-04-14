@@ -1,3 +1,5 @@
+
+`timescale 1ns / 1ps
 module BCDtoSSeg (BCD, SSeg);
 
   input [3:0] BCD;
