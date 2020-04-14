@@ -59,7 +59,7 @@ endmodule
 ```
 La idea del código es mostrar un dígito del sistema hexadecimal en un display de 7 segmentos. La siguiente imagen muestra la simulación realizada con el código BCDtoSSeg.v dado por el profesor.
 
-![simulación](https://github.com/unal-edigital1-2020-1/lab02-bcs2sseg-grupo-04/blob/master/src/Nueva%20carpeta/WhatsApp%20Image%202020-04-13%20at%203.40.29%20PM.jpeg)
+![simulación](https://github.com/unal-edigital1-2020-1/lab02-bcs2sseg-grupo-04/blob/master/src/Soluciones_Grupo4/recursos/WhatsApp%20Image%202020-04-13%20at%203.40.29%20PM.jpeg)
 
 En la simulación se ve que como input para la prueba se usaron números del 1 al 9 (en la simulación se muestra en binario). Después de eso se ve cómo el programa tiene una salida de 7 bits para poder prender y apagar los distintos LEDs que tiene el display de 7 segmentos. Por la configuración de la FPGA cuando el display recibe un 1 es para mantenerse apagado, y cuando recibe un 0 es para prenderse. La salida se da como se esperaba y además en la simulación se ve la salida de 7 bits en formato hexadecimal.
 
